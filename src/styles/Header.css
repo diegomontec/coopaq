@@ -1,0 +1,66 @@
+.containerHeader{
+    font-family: 'Amfibia-Regular', 'Prometo-Regular';
+    height: 100px;
+    width: 100%;
+}
+
+.logo-COOPAQ{
+    height: 75%;
+    padding-right: 0px;
+}
+
+.slogam-COOPAQ{
+    height: 150%;
+}
+
+.language{
+    width: 30px;
+}
+
+.menu a {
+    color: #807d7d;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.menu a:hover {
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3); 
+}
+
+.ancora-COOPAQ-slogam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.ancora-COOPAQ-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .containerHeader{
+        height: 70px;
+        font-size: 14px;
+    }
+    .logo-COOPAQ{
+        height: 70%;
+    }
+    
+    .slogam-COOPAQ{
+        padding-left: 10px;
+        height: 120%;
+    }
+    .language{
+        width: 25px;
+        font-size: 10px !important;
+    }
+    
+    .ancora-COOPAQ-logo {
+        width: 75px;
+    }
+}

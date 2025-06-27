@@ -1,0 +1,10 @@
+.img-diretoria {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10%;
+    border: 3px solid #01b364;
+    flex-shrink: 0;
+  }
+  

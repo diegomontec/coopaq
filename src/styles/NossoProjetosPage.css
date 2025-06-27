@@ -1,0 +1,50 @@
+.titulo-projeto {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Amfibia-DemiBold", "Prometo-Bold", sans-serif;
+  }
+  
+  .imagem-projeto {
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+
+  .descricao-projeto {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 0 auto 24px auto;
+    max-width: 800px;
+    padding: 0 16px;
+    color: #333;
+  }
+  
+  /* Espaço entre os blocos */
+  .projeto {
+    padding-bottom: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Ajustes para mobile */
+  @media (max-width: 768px) {
+    .titulo-projeto {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .descricao-projeto {
+      font-size: 1rem;
+      padding: 0 12px;
+    }
+  
+    .imagem-projeto {
+      border-radius: 12px;
+      width: 80%;
+    }
+  }
+  

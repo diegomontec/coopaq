@@ -1,0 +1,94 @@
+/* Importação das Fontes */
+@font-face {
+    font-family: 'Amfibia-Regular';
+    src: url('../assets//FontsCOOPAQ/Amfibia\ Regular.woff') format('woff'),
+}
+@font-face {
+    font-family: 'Amfibia-DemiBold';
+    src: url('../assets//FontsCOOPAQ//Amfibia\ DemiBold.woff') format('woff'),
+}
+@font-face {
+    font-family: 'Amfibia-ExtraBold';
+    src: url('../assets//FontsCOOPAQ/Amfibia\ ExtraBold.woff') format('woff'),
+}
+@font-face {
+    font-family: 'Prometo-Regular';
+    src: url('../assets//FontsCOOPAQ/Prometo-Regular.woff') format('woff'),
+}
+@font-face {
+    font-family: 'Prometo-Bold';
+    src: url('../assets/FontsCOOPAQ/Prometo-Bold.woff') format('woff'),
+}
+@font-face {
+    font-family: 'Prometo-XBold';
+    src: url('../assets/FontsCOOPAQ/Prometo-XBold.woff') format('woff'),
+}
+
+/* FONTES */
+.font-regular {
+    font-family: 'Amfibia-Regular', 'Prometo-Regular';
+}
+.font-demibold {
+    font-family: 'Amfibia-DemiBold', 'Prometo-Bold';
+}
+.font-extrabold {
+    font-family: 'Amfibia-ExtraBold', 'Prometo-XBold';
+}
+
+
+/* Background Color */
+.bg-COOPAQ-green-white {
+    background: #01b364;
+}
+.bg-COOPAQ-green-black {
+    background: #008349;
+}
+.bg-COOPAQ-orange {
+    background: #f58634;
+}
+.bg-COOPAQ-gray {
+    background: #807d7d;
+}
+.bg-COOPAQ-orangeESG{
+    background-color: #fffdc4;
+}
+.bg-COOPAQ-littleBlack{
+    background-color: #f7f7f7;
+}
+
+
+/* Text Colors */
+.text-COOPAQ-green-white {
+    color: #01b364;
+}
+.text-COOPAQ-green-black {
+    color: #008349;
+}
+.text-COOPAQ-orange {
+    color: #f58634;
+}
+.text-COOPAQ-gray {
+    color: #807d7d;
+}
+.text-COOPAQ-white {
+    color: #FFF;
+}
+.text-COOPAQ-orangeESG {
+    color: #fffdc4;
+}
+
+.custom-color-white{
+    color: #008349;
+}
+
+.custom-color-black{
+    color: #008349;
+}
+
+.tamFonte13px {
+    font-size: 13px;
+}
+
+.tamFonte16px {
+    font-size: 16px;
+}

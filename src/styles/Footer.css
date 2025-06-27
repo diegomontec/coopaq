@@ -1,0 +1,45 @@
+/* FOOTER */
+.footer-css {
+    /* border: 2px solid red; */
+    /* height: 240px; */
+    font-family: 'Amfibia-Regular', 'Prometo-Regular';
+    padding-top: 100px;
+}
+
+.container-logo-info {
+    margin: 0;
+    padding-top: 30px;
+    /* border: 2px solid red; */
+    width: 580px;
+}
+
+.container-logo-menu {
+    /* border: 2px solid red; */
+    width: 580px;
+}
+
+.footer-logo {
+    /* border: 2px solid red; */
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.address, .contact {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.ancora-COOPAQ-Footer {
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    height: 100%;
+}

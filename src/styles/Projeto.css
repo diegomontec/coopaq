@@ -1,0 +1,90 @@
+.projeto {
+    padding-bottom: 32px;
+    margin-bottom: 40px;
+  }
+  
+  /* Wrapper com grid */
+  .conteudo-projeto {
+    display: block; /* mobile padrão */
+  }
+  
+  /* Desktop: duas colunas */
+  @media (min-width: 769px) {
+    .conteudo-projeto {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+  
+    .descricao-projeto {
+      margin: 0;
+      padding: 0;
+      max-width: none;
+    }
+  
+    .imagem-projeto {
+      margin: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    .titulo-projeto {
+      text-align: left;
+    }
+  }
+  
+  .lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titulo-projeto {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Amfibia-DemiBold", "Prometo-Bold", sans-serif;
+  }
+  
+  .imagem-projeto {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .descricao-projeto {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0 auto 24px auto;
+    max-width: 800px;
+    padding: 16px;
+    color: #333;
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .titulo-projeto {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .descricao-projeto {
+      font-size: 1rem;
+      padding: 0 12px;
+    }
+  
+    .imagem-projeto {
+      border-radius: 12px;
+      width: 80%;
+    }
+  }
+  

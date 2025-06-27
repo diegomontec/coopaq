@@ -1,0 +1,11 @@
+.ProdutosCamaragibe {
+    background-image: linear-gradient(to bottom, #f7f7f7 66%, transparent 50%);
+}
+
+.imagePC {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 300px;
+}

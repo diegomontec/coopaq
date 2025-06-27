@@ -1,0 +1,131 @@
+.container-CNPEXT {
+  background-image: linear-gradient(to bottom, #f7f7f7 85%, transparent 50%);
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-CNPINT {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.texto {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.wordConheça {
+  height: 70px;
+  font-size: 70px;
+  font-weight: lighter;
+}
+
+.wordNossos {
+  font-family: "Amfibia-DemiBold", "Prometo-Bold";
+  height: 70px;
+  font-size: 70px;
+}
+
+.wordProjetos {
+  font-family: "Amfibia-DemiBold", "Prometo-Bold";
+  height: 70px;
+  font-size: 70px;
+}
+
+.container-CNPEXT img {
+  border-radius: 40px;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .texto {
+    padding: 20px 10px;
+  }
+  .imagens {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .imagens img {
+    max-width: 360px;
+    width: calc(47% - 10px);
+    margin: 5px;
+    padding: 8px;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 1200px) {
+  .texto {
+    padding: 15px 10px;
+  }
+
+  .wordConheça,
+  .wordNossos,
+  .wordProjetos {
+    font-size: 50px;
+  }
+  .imagens {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .imagens img {
+    max-width: 260px;
+    width: calc(47% - 10px);
+    margin: 5px;
+  }
+}
+
+.AlertaManuteção {
+  width: 60%;
+}
+
+@media only screen and (max-width: 719px) {
+  .container-CNPEXT {
+    padding: 0 8px;
+  }
+
+  .container-CNPINT .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .texto {
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .wordConheça,
+  .wordNossos,
+  .wordProjetos {
+    font-size: 36px;
+    height: auto;
+    line-height: 1.2;
+  }
+
+  .imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .imagens img {
+    width: 100%;
+    max-width: 80%;
+    height: auto;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
