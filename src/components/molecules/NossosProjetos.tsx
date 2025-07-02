@@ -7,13 +7,13 @@ function NossosProjetos() {
   return (
     <div className="container-CNPEXT" id="NossosProjetos">
       <div className="container-fluid container-CNPINT text-COOPAQ-green-black">
-        <div className="container d-flex flex-wrap justify-content-between align-items-start">
+        <div className="container d-flex flex-wrap justify-content-center align-items-center">
           <div className="texto flex flex-wrap ">
             <div className="wordConheça">Conheça</div>
             <div className="wordNossos">Nossos</div>
             <div className="wordProjetos">Projetos</div>
           </div>
-          <div className="imagens">
+          <div className="imagens pt-5">
             <a href="/NossosProjetos">
               <img src={IMG_ProjetoCoqueirais} alt="Coqueirais" />
             </a>

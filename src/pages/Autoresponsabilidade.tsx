@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/Autorresponsabilidade/Capa.jpg'
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/Autorresponsabilidade/IMG-20250512-WA0017.jpg';
 import IMG_2 from '../assets/Autorresponsabilidade/IMG-20250512-WA0019.jpg';
@@ -38,7 +32,6 @@ function Autoresponsabilidade() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 12/05/2025</em></p>
@@ -75,8 +68,6 @@ function Autoresponsabilidade() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

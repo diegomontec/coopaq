@@ -1,13 +1,8 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 /* import imageNews from '../assets/GESTÃO INICIA PROGRAMA DE DESENVOLVIMENTO DE LIDERANÇA COM COACH NACIONAL MARCELO BRILHANTE/capaNews.jpeg' */
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
+
 
 import IMG_1 from '../assets/GESTÃO INICIA PROGRAMA DE DESENVOLVIMENTO DE LIDERANÇA COM COACH NACIONAL MARCELO BRILHANTE/WhatsApp Image 2025-06-14 at 09.18.48(1).jpeg';
 import IMG_2 from '../assets/GESTÃO INICIA PROGRAMA DE DESENVOLVIMENTO DE LIDERANÇA COM COACH NACIONAL MARCELO BRILHANTE/WhatsApp Image 2025-06-14 at 09.18.48(2).jpeg';
@@ -56,7 +51,6 @@ function MarceloBrilhante() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 16/06/2025</em></p>
@@ -95,8 +89,6 @@ function MarceloBrilhante() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

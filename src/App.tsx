@@ -1,9 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-
 import Home from "./pages/Home"
 import Diretoria from "./pages/Diretoria"
 import NossaHistoria from "./pages/NossaHistoria"
-import AgroIndústria from "./pages/AgroIndustria"
+import AgroIndustria from "./pages/AgroIndustria";
 import NossosProjetos from "./pages/NossosProjetos"
 import ÚltimasNotícias from './pages/ÚltimasNotícias'
 import CampanhaAbrilVerde from './pages/CampanhaAbrilVerde'
@@ -25,44 +24,65 @@ import Autoresponsabilidade from "./pages/Autoresponsabilidade"
 import MarceloBrilhante from "./pages/MarceloBrilhante"
 import QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco from "./pages/QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco"
 import Arrancada2025 from "./pages/Arrancada2025"
-// import HomeDev from "./pages/HomeDev"
+import MidiaExterna from "./pages/MidiaExterna"
 
 function App() {
 
   return (
-            <Router>
-              <Routes>
-                <Route path="/" element = { < Home /> } />
-                <Route path="/diretoria" element = { < Diretoria /> } />
-                <Route path="/nossahistoria" element = { < NossaHistoria /> } />
-                <Route path="/agroindústria" element = { < AgroIndústria /> } />
-                <Route path="/nossosprojetos" element = { < NossosProjetos /> } />
-                <Route path="/ultimasnoticias" element = { < ÚltimasNotícias /> } />
-                <Route path="/campanhaabrilverde" element = { <CampanhaAbrilVerde/> } />
-                <Route path="/diadecampo" element = { <Diadecampo/> } />
-                <Route path="/pedaladaverde" element = { <PedaladaVerde/> } />
-                <Route path="/imersaointercooperacao" element = { <ImersãoIntercooperação/> } />
-                <Route path="/encontrodenegocios" element = { <EncontroDeNegocios/> } />
-                <Route path="/SIPAT" element = { <SIPAT/> } />
-                <Route path="/doacaodemateriaisreciclaveisparacooperativademaceio" element = { <ReciclaveisMaceio/> } />
-                <Route path="/qualificacoopaq" element = {<QUALIFICACOOPAQ/>} />
-                <Route path="/gestãoeliderança" element = {<GestãoeLiderança/>} />
-                <Route path="/cafecommulheresdocampo" element = {<CafeMulheresCampos/>} />
-                <Route path="/assembleiageralordinaria" element = {<AssembleiaGeralOrdinaria/>} />
-                <Route path="/pedalcoopaq" element = {<PedalCoopaq/>} />
-                <Route path="/qualificajovem" element = {<QualificaJovem/>} />
-                <Route path="/coopaqemparceriacomogov" element = {<CoopaqParceiraComOGov/>} />
-                <Route path="/esporteellayny" element = {<EsporteEllayny/>} />
-                <Route path="/autoresponsabilidade" element = {<Autoresponsabilidade/>} />
-                <Route path="/marcelobrilhante" element = {<MarceloBrilhante/>} />
-                <Route path="/qualificajovemvisitamfabricadeprocessamentoderesiduosdecoco" element = {<QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco/>} />
-                <Route path="/arrancada2025" element = {<Arrancada2025/>} />
-                {/* <Route path="/dev" element = { < HomeDev /> } /> */}
-                {/* <Route path="NotFound" element={ < NotFound /> } />
-                <Route path="*" element={ < Navigate to="/NotFound" /> } /> */}
-              </Routes>
-            </Router>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/diretoria" element={<Diretoria />} />
+        <Route path="/nossahistoria" element={<NossaHistoria />} />
+        <Route path="/agroindustria" element={<AgroIndustria />} />
+        <Route path="/nossosprojetos" element={<NossosProjetos />} />
+        <Route path="midia-externa" element={<MidiaExterna />} />
+        <Route path="/ultimasnoticias" element={<ÚltimasNotícias />} />
+        <Route path="/campanhaabrilverde" element={<CampanhaAbrilVerde />} />
+        <Route path="/diadecampo" element={<Diadecampo />} />
+        <Route path="/pedaladaverde" element={<PedaladaVerde />} />
+        <Route
+          path="/imersaointercooperacao"
+          element={<ImersãoIntercooperação />}
+        />
+        <Route path="/encontrodenegocios" element={<EncontroDeNegocios />} />
+        <Route path="/SIPAT" element={<SIPAT />} />
+        <Route
+          path="/doacaodemateriaisreciclaveisparacooperativademaceio"
+          element={<ReciclaveisMaceio />}
+        />
+        <Route path="/qualificacoopaq" element={<QUALIFICACOOPAQ />} />
+        <Route path="/gestãoeliderança" element={<GestãoeLiderança />} />
+        <Route
+          path="/cafecommulheresdocampo"
+          element={<CafeMulheresCampos />}
+        />
+        <Route
+          path="/assembleiageralordinaria"
+          element={<AssembleiaGeralOrdinaria />}
+        />
+        <Route path="/pedalcoopaq" element={<PedalCoopaq />} />
+        <Route path="/qualificajovem" element={<QualificaJovem />} />
+        <Route
+          path="/coopaqemparceriacomogov"
+          element={<CoopaqParceiraComOGov />}
+        />
+        <Route path="/esporteellayny" element={<EsporteEllayny />} />
+        <Route
+          path="/autoresponsabilidade"
+          element={<Autoresponsabilidade />}
+        />
+        <Route path="/marcelobrilhante" element={<MarceloBrilhante />} />
+        <Route
+          path="/qualificajovemvisitamfabricadeprocessamentoderesiduosdecoco"
+          element={
+            <QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco />
+          }
+        />
+        <Route path="/arrancada2025" element={<Arrancada2025 />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App

@@ -1,10 +1,3 @@
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
-import { isMobile } from 'react-device-detect'
-import Navbar from '../components/organisms/Navbar'
-
 import AlertTI from '../assets/Operacional TI/Warning - Manutenção.png'
 
 // const newsItems = [
@@ -24,7 +17,6 @@ function ÚltimasNotícias() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         {/* {newsItems.map((item, index) => (
           <NewsItem
@@ -38,8 +30,6 @@ function ÚltimasNotícias() {
           <img loading='lazy' className='AlertaManuteção' src={AlertTI} alt="Manutenção" />
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

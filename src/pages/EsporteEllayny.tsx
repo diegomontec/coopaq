@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/Esporte-Ellayny/IMG-20250416-WA0030.jpg';
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/Esporte-Ellayny/IMG-20250416-WA0027.jpg';
 import IMG_2 from '../assets/Esporte-Ellayny/IMG-20250416-WA0028.jpg';
@@ -40,7 +34,6 @@ function EsporteEllayny() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 17/04/2025</em></p>
@@ -77,8 +70,6 @@ function EsporteEllayny() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/Arrancada2025/capa.jpeg';
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/Arrancada2025/WhatsApp Image 2025-06-23 at 10.53.20.jpeg';
 import IMG_2 from '../assets/Arrancada2025/WhatsApp Image 2025-06-23 at 10.54.44.jpeg';
@@ -46,7 +40,6 @@ function Arrancada2025() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 23/06/2025</em></p>
@@ -88,8 +81,6 @@ function Arrancada2025() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

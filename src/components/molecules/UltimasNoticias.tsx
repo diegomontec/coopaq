@@ -1,5 +1,5 @@
-import { Carousel } from 'react-bootstrap';
-import { useMemo } from 'react';
+// import { Carousel } from 'react-bootstrap';
+// import { useMemo } from 'react';
 
 import '../../styles/UltimasNoticias.css';
 import CardsNoticias from '../atoms/CardsNoticias';
@@ -184,46 +184,83 @@ const news = [
   },
 ]
 
-function UltimasNoticias() {
-  const groupedNews = useMemo(() => {
-    const result = [];
-    for (let i = 0; i < news.length; i += 3) {
-      result.push(news.slice(i, i + 3));
-    }
-    return result;
-  }, []);
+// function UltimasNoticias() {
+//   const groupedNews = useMemo(() => {
+//     const result = [];
+//     for (let i = 0; i < news.length; i += 3) {
+//       result.push(news.slice(i, i + 3));
+//     }
+//     return result;
+//   }, []);
 
+//   return (
+//     <div className="container containerNEWS">
+//       <div className="container-fluid">
+//         {/* <a href='/ultimasnoticias' className='no-underline'> */}
+//           <span className="fs-1 text-COOPAQ-green-white">Últimas Notícias</span>
+//         {/* </a> */}
+//         <Carousel controls={false} interval={3000} pause="hover">
+//           {groupedNews.map((group, index) => (
+//             <Carousel.Item key={index}>
+//               <div className="row">
+//               {group.map((item, idx) => (
+//                 <div className="col-md-4" key={idx}>
+//                   <CardsNoticias
+//                     Titulo={item.Titulo}
+//                     Noticias={item.Noticias}
+//                     LeiaMais={
+//                       <a href={item.LeiaMais ? item.LeiaMais : "#"} target={item.targetBlank ? '_blank' : '_self'} className='no-underline text-COOPAQ-green-black font-demibold'>
+//                         LEIA MAIS
+//                         <i className="bi bi-arrow-right-short custom-color-black"></i>
+//                       </a>
+//                     }
+//                     imgSrc={item.imgSrc ? item.imgSrc : IMG_BG}
+//                     link={item.LeiaMais ? item.LeiaMais : "#"}
+//                     targetBlank={item.targetBlank}
+//                   />
+//                 </div>
+//               ))}
+//               </div>
+//             </Carousel.Item>
+//           ))}
+//         </Carousel>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+// export default UltimasNoticias;
+
+function UltimasNoticias() {
   return (
     <div className="container containerNEWS">
       <div className="container-fluid">
-        {/* <a href='/ultimasnoticias' className='no-underline'> */}
-          <span className="fs-1 text-COOPAQ-green-white">Últimas Notícias</span>
-        {/* </a> */}
-        <Carousel controls={false} interval={3000} pause="hover">
-          {groupedNews.map((group, index) => (
-            <Carousel.Item key={index}>
-              <div className="row">
-              {group.map((item, idx) => (
-                <div className="col-md-4" key={idx}>
-                  <CardsNoticias
-                    Titulo={item.Titulo}
-                    Noticias={item.Noticias}
-                    LeiaMais={
-                      <a href={item.LeiaMais ? item.LeiaMais : "#"} target={item.targetBlank ? '_blank' : '_self'} className='no-underline text-COOPAQ-green-black font-demibold'>
-                        LEIA MAIS
-                        <i className="bi bi-arrow-right-short custom-color-black"></i>
-                      </a>
-                    }
-                    imgSrc={item.imgSrc ? item.imgSrc : IMG_BG}
-                    link={item.LeiaMais ? item.LeiaMais : "#"}
-                    targetBlank={item.targetBlank}
-                  />
-                </div>
-              ))}
-              </div>
-            </Carousel.Item>
+        <span className="fs-1 text-COOPAQ-green-white">Últimas Notícias</span>
+
+        <div className="row mt-4">
+          {news.map((item, idx) => (
+            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" key={idx}>
+              <CardsNoticias
+                Titulo={item.Titulo}
+                Noticias={item.Noticias}
+                LeiaMais={
+                  <a
+                    href={item.LeiaMais || "#"}
+                    target={item.targetBlank ? "_blank" : "_self"}
+                    className="no-underline text-COOPAQ-green-black font-demibold"
+                  >
+                    LEIA MAIS
+                    <i className="bi bi-arrow-right-short custom-color-black"></i>
+                  </a>
+                }
+                imgSrc={item.imgSrc || IMG_BG}
+                link={item.LeiaMais || "#"}
+                targetBlank={item.targetBlank}
+              />
+            </div>
           ))}
-        </Carousel>
+        </div>
       </div>
     </div>
   );

@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/PedalCoopaq/capa.jpg';
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/PedalCoopaq/IMG-20250401-WA0006.jpg';
 import IMG_2 from '../assets/PedalCoopaq/IMG-20250401-WA0007.jpg';
@@ -41,7 +35,6 @@ function PedalCoopaq() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 01/04/2025</em></p>
@@ -93,8 +86,6 @@ function PedalCoopaq() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

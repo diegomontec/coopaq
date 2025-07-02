@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/EncontroDeNegocios/CapaPage.png';
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/EncontroDeNegocios/FotosPage/IMG_1.png';
 import IMG_2 from '../assets/EncontroDeNegocios/FotosPage/IMG_4.png';
@@ -40,7 +34,6 @@ function EncontroDeNegocios() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 19/07/2024</em></p>
@@ -75,8 +68,6 @@ function EncontroDeNegocios() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

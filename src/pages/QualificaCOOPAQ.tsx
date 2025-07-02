@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/QualificaCOOPAQ/IMG6.jpg';
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/QualificaCOOPAQ/IMG6.jpg';
 import IMG_2 from '../assets/QualificaCOOPAQ/IMG7.jpg';
@@ -42,7 +36,6 @@ function QualificaCOOPAQ() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 18/09/2024</em></p>
@@ -81,8 +74,6 @@ function QualificaCOOPAQ() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

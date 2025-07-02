@@ -1,13 +1,7 @@
 import { useState } from 'react';
 import { Carousel as BootstrapCarousel, CarouselItem } from 'react-bootstrap';
 
-import Header from '../components/organisms/Header'
-import Footer from "../components/organisms/Footer"
-import DireitosAutorais from "../components/organisms/DireitosAutorais"
-
 import imageNews from '../assets/Estudantes do Qualifica Jovem visitam fábrica de processamento de resíduos de coco no Litoral Sul/capa.jpeg'
-import { isMobile } from 'react-device-detect';
-import Navbar from '../components/organisms/Navbar';
 
 import IMG_1 from '../assets/Estudantes do Qualifica Jovem visitam fábrica de processamento de resíduos de coco no Litoral Sul/WhatsApp Image 2025-06-23 at 09.59.50 (1).jpeg';
 import IMG_2 from '../assets/Estudantes do Qualifica Jovem visitam fábrica de processamento de resíduos de coco no Litoral Sul/WhatsApp Image 2025-06-23 at 09.59.50 (2).jpeg';
@@ -43,7 +37,6 @@ function QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco() {
 
   return (
     <div>
-      { isMobile ? <Navbar /> : <Header /> }
       <div className='container'>
         <div className='container-fluid font-regular'>
           <p className='pt-5 mb-0'><em>⏲️ 23/06/2025</em></p>
@@ -80,8 +73,6 @@ function QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco() {
           </div>
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   )
 }

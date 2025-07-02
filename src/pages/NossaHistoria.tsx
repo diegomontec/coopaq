@@ -1,26 +1,21 @@
-import Header from "../components/organisms/Header";
-import Footer from "../components/organisms/Footer";
-import DireitosAutorais from "../components/organisms/DireitosAutorais";
-
 import "../styles/NossaHistoria.css";
 import imgMapaCooperados from "../assets/Cooperados/Mapa cooperados.png";
 
 function NossaHistoria() {
   return (
     <div>
-      <Header />
-      <section className="container pt-5">
-        <h1 className="fs-2 pt-4 text-COOPAQ-orange text-center">
+      <section className="pt-5 mx-4">
+        <h1 className="fs-2 pt-4 text-COOPAQ-orange text-left">
           Nossa História
         </h1>
-        <p className="fs-5 text-center p-2 m-2">
+        <p className="fs-5 text-left">
           <strong>
             COOPAQ, há 13 anos sendo o caminho mais curto entre o campo e a
             cidade
           </strong>
         </p>
 
-        <article className="fs-5 text-left p-3 p-md-4 m-2 m-md-4 font-regular">
+        <article className="fs-5 text-left p-md-4 m-2 m-md-4 font-regular">
           <p>
             A Cooperativa dos Agricultores Qualificados - COOPAQ, fundada em
             2011 pelo atual presidente Romullo Dantas, localizada no município
@@ -123,9 +118,6 @@ function NossaHistoria() {
           />
         </div>
       </section>
-
-      <Footer />
-      <DireitosAutorais />
     </div>
   );
 }

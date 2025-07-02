@@ -42,6 +42,32 @@
     width: 100px;
 }
 
+.navbar-toggler {
+    border: none;
+    background: transparent;
+    font-size: 1.5rem;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%280, 0, 0, 0.8%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  /* Ocultar logo no mobile */
+  @media only screen and (max-width: 767px) {
+    .ancora-COOPAQ-logo {
+      display: none !important;
+    }
+  
+    .slogam-COOPAQ {
+      height: 80%; /* Reduz o slogan */
+    }
+  }
+
+  
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .containerHeader{
         height: 70px;

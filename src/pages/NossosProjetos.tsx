@@ -1,6 +1,3 @@
-import Header from "../components/organisms/Header";
-import Footer from "../components/organisms/Footer";
-import DireitosAutorais from "../components/organisms/DireitosAutorais";
 import Projeto from "../components/molecules/Projeto.tsx";
 
 import imagemMatrizDelas from "../assets/ELEMENTOS COOPAQ/Comunidade MatrizDelas.png";
@@ -34,7 +31,6 @@ const projetos = [
 function NossosProjetos() {
   return (
     <div>
-      <Header />
       <div className="container">
         <div className="container-fluid">
           {projetos.map((projeto, index) => (
@@ -48,8 +44,6 @@ function NossosProjetos() {
           ))}
         </div>
       </div>
-      <Footer />
-      <DireitosAutorais />
     </div>
   );
 }
