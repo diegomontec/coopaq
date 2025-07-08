@@ -25,6 +25,8 @@ import MarceloBrilhante from "./pages/MarceloBrilhante"
 import QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco from "./pages/QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco"
 import Arrancada2025 from "./pages/Arrancada2025"
 import MidiaExterna from "./pages/MidiaExterna"
+import Imunizacao from "./pages/Imunizacao";
+import MatrizDelas from "./pages/MatrizDelas";
 
 function App() {
 
@@ -80,6 +82,8 @@ function App() {
           }
         />
         <Route path="/arrancada2025" element={<Arrancada2025 />} />
+        <Route path="/imunizacao" element={<Imunizacao />} />
+        <Route path="/matriz-delas" element={<MatrizDelas />} />
       </Routes>
     </Router>
   );

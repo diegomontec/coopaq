@@ -5,12 +5,12 @@ function NossaHistoria() {
   return (
     <div>
       <section className="pt-5 mx-4">
-        <h1 className="fs-2 pt-4 text-COOPAQ-orange text-left">
+        <h1 className="fs-2 px-lg-5 pt-4 text-COOPAQ-orange text-left">
           Nossa História
         </h1>
-        <p className="fs-5 text-left">
+        <p className="fs-5 text-left px-lg-5">
           <strong>
-            COOPAQ, há 13 anos sendo o caminho mais curto entre o campo e a
+            COOPAQ, há 14 anos sendo o caminho mais curto entre o campo e a
             cidade
           </strong>
         </p>

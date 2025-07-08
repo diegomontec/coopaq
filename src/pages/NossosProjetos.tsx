@@ -1,6 +1,6 @@
 import Projeto from "../components/molecules/Projeto.tsx";
 
-import imagemMatrizDelas from "../assets/ELEMENTOS COOPAQ/Comunidade MatrizDelas.png";
+import imagemMatrizDelas from "../assets/MatrizDelas/Projeto.jpg";
 import imagemCoqueirais from "../assets/ELEMENTOS COOPAQ/Projeto Coqueirais.png";
 import imagemMusica from "../assets/ELEMENTOS COOPAQ/Música Cooperada.png";
 
@@ -22,7 +22,7 @@ const projetos = [
   },
   {
     titulo: "Música Cooperada",
-    descricao: "Lorem ipsumAliqua et eiusmod enim non.",
+    descricao: "O projeto Música Cooperada é uma iniciativa desenvolvida pela Igreja Assembleia de Deus Madureira (AD BRÁS) em parceria com a Cooperativa dos Agricultores Qualificados (COOPAQ). Seu principal objetivo é oferecer, de forma gratuita, aulas de teoria musical e instrumentos para crianças, adolescentes e jovens, proporcionando inclusão social e o desenvolvimento cultural por meio da música. O projeto tem como metas formar uma orquestra com 50 componentes, criar um coral mirim integrado a um conjunto de flauta doce (soprano, tenor, baixo e flauta barroca) e preparar uma banda para apresentações em desfiles e eventos, fortalecendo a interação comunitária.",
     imagem: imagemMusica,
     alt: "Projeto Música Cooperada",
   },

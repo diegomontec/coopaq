@@ -7,7 +7,7 @@ function Header() {
   const [menuAberto, setMenuAberto] = useState(false);
 
   return (
-    <div className="border-bottom">
+    <div className="border-bottom px-lg-5">
       <div className="containerHeader container-fluid d-flex align-items-center justify-content-between">
         <a href="/" className="ancora-COOPAQ-slogam">
           <img src={imagemSlogan} alt="Slogan" className="slogam-COOPAQ" />

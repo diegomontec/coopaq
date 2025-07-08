@@ -56,7 +56,6 @@
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 20px;
     padding-bottom: 30px;
   }
   
@@ -83,7 +82,6 @@
     }
   
     .imagem-projeto {
-      border-radius: 12px;
       width: 80%;
     }
   }

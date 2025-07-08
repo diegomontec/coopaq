@@ -31,8 +31,26 @@ import IMG_Autoresponsabilidade from "../../assets/Autorresponsabilidade/CapaNew
 import IMG_MarceloBrilhante from "../../assets/GESTÃO INICIA PROGRAMA DE DESENVOLVIMENTO DE LIDERANÇA COM COACH NACIONAL MARCELO BRILHANTE/capaNews.jpeg";
 import IMG_qualificajovemvisitamfabricadeprocessamentoderesiduosdecoco from "../../assets/Estudantes do Qualifica Jovem visitam fábrica de processamento de resíduos de coco no Litoral Sul/capaNews.jpeg";
 import IMG_arracada2025 from "../../assets/Arrancada2025/capaNews.jpeg";
+import IMG_imunizacao from "../../assets/Imunizacao/capa.jpg";
+import IMG_matrizdelas from "../../assets/MatrizDelas/capa.jpg";
 
 const news = [
+  {
+    Titulo: "Campanha de Imunização",
+    Noticias:
+      "💫💪🏽 Coopaq e Agroindústria Camaragibe Realizam Campanha de Imunização contra Doenças Virais",
+    LeiaMais: "/imunizacao",
+    imgSrc: IMG_imunizacao,
+    targetBlank: false,
+  },
+  {
+    Titulo: "Matriz Delas participa",
+    Noticias:
+      "🚀💪🏽Matriz Delas participa de Encontro de Mulheres em Assentamentos do Litoral Norte",
+    LeiaMais: "/matriz-delas",
+    imgSrc: IMG_matrizdelas,
+    targetBlank: false,
+  },
   {
     Titulo: "Arrancada 2025",
     Noticias: "🚀💪🏽 Uma Jornada de Autoconhecimento e Integração",
