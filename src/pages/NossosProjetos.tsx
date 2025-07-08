@@ -1,8 +1,8 @@
 import Projeto from "../components/molecules/Projeto.tsx";
 
 import imagemMatrizDelas from "../assets/MatrizDelas/Projeto.jpg";
-import imagemCoqueirais from "../assets/ELEMENTOS COOPAQ/Projeto Coqueirais.png";
-import imagemMusica from "../assets/ELEMENTOS COOPAQ/Música Cooperada.png";
+import imagemCoqueirais from "../assets/ELEMENTOS COOPAQ/PROJETOCOQUEIRAIS1382.png";
+import imagemMusica from "../assets/ELEMENTOS COOPAQ/PROJETOMUSICA1384.png";
 
 import "../styles/NossoProjetosPage.css";
 import "../styles/Projeto.css"
