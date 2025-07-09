@@ -44,7 +44,7 @@ const news = [
     targetBlank: false,
   },
   {
-    Titulo: "Matriz Delas participa",
+    Titulo: "Matriz Delas Participa",
     Noticias:
       "🚀💪🏽Matriz Delas participa de Encontro de Mulheres em Assentamentos do Litoral Norte",
     LeiaMais: "/matriz-delas",

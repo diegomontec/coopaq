@@ -30,19 +30,17 @@ const projetos = [
 
 function NossosProjetos() {
   return (
-    <div>
-      <div className="container">
-        <div className="container-fluid">
-          {projetos.map((projeto, index) => (
-            <Projeto
-              key={index}
-              titulo={projeto.titulo}
-              imagem={projeto.imagem}
-              descricao={projeto.descricao}
-              alt={projeto.alt}
-            />
-          ))}
-        </div>
+    <div className="d-flex justify-content-center">
+      <div style={{ width: "90%" }}>
+        {projetos.map((projeto, index) => (
+          <Projeto
+            key={index}
+            titulo={projeto.titulo}
+            imagem={projeto.imagem}
+            descricao={projeto.descricao}
+            alt={projeto.alt}
+          />
+        ))}
       </div>
     </div>
   );

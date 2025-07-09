@@ -12,10 +12,15 @@ export default function Projeto({
   alt,
 }: ProjetoProps) {
   return (
-    <div className="projeto mt-5">
-      <h2 className="titulo-projeto text-COOPAQ-green-black">{titulo}</h2>
-      <img src={imagem} alt={alt} className="imagem-projeto" />
-      <p className="descricao-projeto">{descricao}</p>
+    <div className="projeto w-100">
+      <img
+        src={imagem}
+        alt={alt}
+        className="w-100 rounded-5 mb-5"
+        style={{ height: "50vh", objectFit: "cover" }}
+      />
+      <h2 className="text-COOPAQ-green-black fw-bold fs-3 mb-3">{titulo}</h2>
+      <p className="fs-5 text-dark">{descricao}</p>
     </div>
   );
 }

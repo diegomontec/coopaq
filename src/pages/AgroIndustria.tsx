@@ -1,7 +1,17 @@
+import IMG_agroindustria from "../assets/Screenshot_52.png";
+
 function AgroIndustria() {
   return (
     <div>
-      <section className="container pt-5 px-5 px-md-0">
+      <section className="container w-auto px-5 px-md-0 border-rounded-3 bg-white shadow-sm mb-5">
+        <div className="w-100 mb-5 overflow-hidden rounded-bottom-5">
+          <img
+            src={IMG_agroindustria}
+            alt="faixada"
+            className="img-fluid w-100"
+            style={{ height: "75%", objectFit: "cover" }}
+          />
+        </div>
         <h1 className="fs-2 text-COOPAQ-orange text-start mb-3">
           AgroIndústria
         </h1>

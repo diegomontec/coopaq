@@ -6,3 +6,20 @@
 .no-underline {
     text-decoration: none;
 }
+
+/* Ajusta a posição das setas para fora do carrossel */
+.swiper-button-next,
+.swiper-button-prev {
+  transform: translateY(-50%);
+  color: #01b364; /* cor opcional, pode ser branca, preta etc */
+  z-index: 10;
+}
+
+/* Leva para fora horizontalmente */
+.swiper-button-prev {
+  left: 5px;
+}
+
+.swiper-button-next {
+  right: 5px;
+}
