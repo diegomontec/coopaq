@@ -30,7 +30,7 @@ const projetos = [
 
 function NossosProjetos() {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center font-regular">
       <div style={{ width: "90%" }}>
         {projetos.map((projeto, index) => (
           <Projeto

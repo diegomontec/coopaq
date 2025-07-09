@@ -50,10 +50,10 @@ function Diretoria() {
   return (
     <div className="container-fluid">
       {/* <HeaderAdvice /> */}
-      <div className="container-fluid font-regular mt-5 mb-5">
+      <div className="container-fluid font-regular mt-5 mb-5 font-regular">
         <h1
           className="container"
-          style={{ fontSize: "1rem", textAlign: "justify" }}
+          style={{ fontSize: "1.5rem", textAlign: "justify" }}
         >
           A Diretoria da Cooperativa é composta por líderes comprometidos com os
           princípios do cooperativismo e o desenvolvimento sustentável do meio
