@@ -15,6 +15,7 @@ const people = [
     Sobre:
       "Com ampla experiência no setor agrícola e na gestão cooperativista, Rômulo atua de forma estratégica para fortalecer a união entre os cooperados e promover o desenvolvimento sustentável. Sua liderança é pautada pela transparência, inovação e compromisso com o crescimento coletivo, sempre buscando melhores oportunidades para os produtores e contribuindo para o progresso da comunidade rural.",
     imgPerfil: faceRomullo,
+    iconLinkedin: "https://www.linkedin.com/in/romullo-dantas-95602a324/",
   },
   {
     Nome: "Rinaldo José",
@@ -51,11 +52,10 @@ function Diretoria() {
     <div className="container-fluid">
       {/* <HeaderAdvice /> */}
       <div className="container-fluid font-regular mt-5 mb-5 font-regular">
-        <h1
+        <h4
           className="container"
-          style={{ fontSize: "1.5rem", textAlign: "justify" }}
         >
-          A Diretoria da Cooperativa é composta por líderes comprometidos com os
+          A Diretoria da Cooperativa é composta por líderes comprometidos com os 
           princípios do cooperativismo e o desenvolvimento sustentável do meio
           rural. À frente da presidência, o Diretor Presidente conduz as
           estratégias com visão de futuro, fortalecendo a união entre os
@@ -68,10 +68,13 @@ function Diretoria() {
           valorização desses públicos, estimulando a renovação e diversidade no
           campo. Já o Diretor de Produção e Comércio lidera ações voltadas à
           melhoria da produtividade e à ampliação de mercados, gerando mais
-          oportunidades para os associados. Juntos, formam uma equipe sólida,
-          alinhada aos valores cooperativistas e ao compromisso com o
-          fortalecimento da agricultura familiar.
-        </h1>
+          oportunidades para os associados. 
+          
+          <br />
+          <br />
+
+          Juntos, formam uma equipe sólida, alinhada aos valores cooperativistas e ao compromisso com o fortalecimento da agricultura familiar.
+        </h4>
       </div>
       <Container>
         {people.map((membro, index) => (
