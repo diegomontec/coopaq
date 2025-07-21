@@ -12,15 +12,15 @@
 }
 @font-face {
     font-family: 'Prometo-Regular';
-    src: url('/fonts\ Prometo-Regular.woff') format('woff'),
+    src: url('/fonts/Prometo-Regular.woff') format('woff'),
 }
 @font-face {
     font-family: 'Prometo-Bold';
-    src: url('/fonts\ Prometo-Bold.woff') format('woff'),
+    src: url('/fonts/Prometo-Bold.woff') format('woff'),
 }
 @font-face {
     font-family: 'Prometo-XBold';
-    src: url('/fonts\ Prometo-XBold.woff') format('woff'),
+    src: url('/fonts/Prometo-XBold.woff') format('woff'),
 }
 
 /* FONTES */
