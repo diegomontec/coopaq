@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'Amfibia-Regular';
-    src: url('/fonts/Amfibia\ Regular.woff') format('woff'),
+    src: url('/fonts/AmfibiaRegular.woff') format('woff'),
 }
 @font-face {
     font-family: 'Amfibia-DemiBold';
-    src: url('/fonts/Amfibia\ DemiBold.woff') format('woff'),
+    src: url('/fonts/AmfibiaDemiBold.woff') format('woff'),
 }
 @font-face {
     font-family: 'Amfibia-ExtraBold';
-    src: url('/fonts/Amfibia\ ExtraBold.woff') format('woff'),
+    src: url('/fonts/AmfibiaExtraBold.woff') format('woff'),
 }
 @font-face {
     font-family: 'Prometo-Regular';
