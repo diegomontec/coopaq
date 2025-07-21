@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'Amfibia-Regular';
-    src: url('../assets//FontsCOOPAQ/Amfibia\ Regular.woff') format('woff'),
+    src: url('/fonts/Amfibia\ Regular.woff') format('woff'),
 }
 @font-face {
     font-family: 'Amfibia-DemiBold';
-    src: url('../assets//FontsCOOPAQ//Amfibia\ DemiBold.woff') format('woff'),
+    src: url('/fonts/Amfibia\ DemiBold.woff') format('woff'),
 }
 @font-face {
     font-family: 'Amfibia-ExtraBold';
-    src: url('../assets//FontsCOOPAQ/Amfibia\ ExtraBold.woff') format('woff'),
+    src: url('/fonts/Amfibia\ ExtraBold.woff') format('woff'),
 }
 @font-face {
     font-family: 'Prometo-Regular';
-    src: url('../assets//FontsCOOPAQ/Prometo-Regular.woff') format('woff'),
+    src: url('/fonts/Prometo-Regular.woff') format('woff'),
 }
 @font-face {
     font-family: 'Prometo-Bold';
-    src: url('../assets/FontsCOOPAQ/Prometo-Bold.woff') format('woff'),
+    src: url('/fonts/Prometo-Bold.woff') format('woff'),
 }
 @font-face {
     font-family: 'Prometo-XBold';
-    src: url('../assets/FontsCOOPAQ/Prometo-XBold.woff') format('woff'),
+    src: url('/fonts/Prometo-XBold.woff') format('woff'),
 }
 
 /* FONTES */

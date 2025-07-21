@@ -18,9 +18,9 @@ const people = [
   },
   {
     Nome: "Rinaldo José",
-    Cargo: "Diretor Financeiro",
+    Cargo: "Diretor Secretário",
     Sobre:
-      "Responsável pela gestão estratégica dos recursos financeiros da cooperativa, Rinaldo atua com foco na transparência, sustentabilidade e solidez econômica. Com olhar analítico e experiência no setor da agricultura, conduz o planejamento orçamentário, controla os investimentos e garante a saúde financeira da instituição, sempre alinhado aos princípios cooperativistas e ao compromisso com o crescimento dos associados.",
+      "Responsável por garantir a organização administrativa e a transparência dos processos internos, Rinaldo atua com dedicação no registro, acompanhamento e divulgação das decisões da cooperativa. Com atenção aos detalhes e compromisso com a governança, zela pela comunicação entre os órgãos da cooperativa e os cooperados, fortalecendo a confiança, a clareza e a participação ativa de todos no dia a dia da gestão.",
     imgPerfil: faceRinaldo,
   },
   {
@@ -32,9 +32,9 @@ const people = [
   },
   {
     Nome: "Mayara Costa",
-    Cargo: "Diretora Secretária",
+    Cargo: "Diretora Financeira",
     Sobre:
-      "Responsável por garantir a organização administrativa e a transparência dos processos internos, Mayara atua com dedicação no registro, acompanhamento e divulgação das decisões da cooperativa. Com atenção aos detalhes e compromisso com a governança, zela pela comunicação entre os órgãos da cooperativa e os cooperados, fortalecendo a confiança, a clareza e a participação ativa de todos no dia a dia da gestão.",
+      "Responsável pela gestão estratégica dos recursos financeiros da cooperativa, Mayara atua com foco na transparência, sustentabilidade e solidez econômica. Com olhar analítico e experiência no setor da agricultura, conduz o planejamento orçamentário, controla os investimentos e garante a saúde financeira da instituição, sempre alinhada aos princípios cooperativistas e ao compromisso com o crescimento dos associados.",
     imgPerfil: faceMayara,
   },
   {

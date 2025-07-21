@@ -1,17 +1,23 @@
-import IMG_agroindustria from "../assets/Screenshot_52.png";
+import IMG_agroindustria from "../assets/agroum.jpg";
+import IMG_agroindustria_dois from "../assets/agrodois.jpg";
 
 function AgroIndustria() {
   return (
     <div>
-      <section className="container w-auto px-5 px-md-0 border-rounded-3 bg-white shadow-sm mb-5">
-        <div className="w-100 mb-5 overflow-hidden rounded-bottom-5">
+      <section className="container w-auto px-5 px-md-0 bg-white mb-5">
+        <div className="w-100 mb-5 d-flex flex-row overflow-hidden rounded-bottom-4">
           <img
             src={IMG_agroindustria}
             alt="faixada"
-            className="img-fluid w-100"
-            style={{ height: "75%", objectFit: "cover" }}
+            className="img-fluid w-50 me-3"
+          />
+          <img
+            src={IMG_agroindustria_dois}
+            alt="faixada"
+            className="img-fluid w-50"
           />
         </div>
+
         <h1 className="fs-2 text-COOPAQ-orange text-start mb-3">
           AgroIndústria
         </h1>
