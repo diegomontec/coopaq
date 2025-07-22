@@ -55,7 +55,7 @@ function Formacaoembioeconomia() {
       <div className="container">
         <div className="container-fluid font-regular">
           <p className="pt-5 mb-0">
-            <em>⏲️ 21/07/2024</em>
+            <em>⏲️ 21/07/2025</em>
           </p>
           <h1 className="fs-2 text-COOPAQ-orange text-center font-demibold">
             Juventude Coopaq celebra a conclusão do Curso de Formação em

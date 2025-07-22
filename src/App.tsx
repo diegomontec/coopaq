@@ -27,7 +27,7 @@ import Arrancada2025 from "./pages/Arrancada2025";
 import MidiaExterna from "./pages/MidiaExterna";
 import Imunizacao from "./pages/Imunizacao";
 import MatrizDelas from "./pages/MatrizDelas";
-import Formacaoembioeconomia from "./pages/formacaoembioeconomia";
+import Formacaoembioeconomia from "./pages/Formacaoembioeconomia";
 
 function App() {
   return (

@@ -37,7 +37,7 @@ function Imunizacao() {
       <div className="container">
         <div className="container-fluid font-regular">
           <p className="pt-5 mb-0">
-            <em>⏲️ 01/07/2024</em>
+            <em>⏲️ 01/07/2025</em>
           </p>
           <h1 className="fs-2 text-COOPAQ-orange text-center font-demibold">
             Coopaq e Agroindústria Camaragibe Realizam Campanha de Imunização
