@@ -1,35 +1,35 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Home from "./pages/Home"
-import Diretoria from "./pages/Diretoria"
-import NossaHistoria from "./pages/NossaHistoria"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Diretoria from "./pages/Diretoria";
+import NossaHistoria from "./pages/NossaHistoria";
 import AgroIndustria from "./pages/AgroIndustria";
-import NossosProjetos from "./pages/NossosProjetos"
-import ÚltimasNotícias from './pages/ÚltimasNotícias'
-import CampanhaAbrilVerde from './pages/CampanhaAbrilVerde'
-import Diadecampo from './pages/Diadecampo'
-import PedaladaVerde from "./pages/PedaladaVerde"
-import ImersãoIntercooperação from "./pages/ImersãoIntercooperação"
-import EncontroDeNegocios from "./pages/EncontroDeNegocios"
-import SIPAT from './pages/SIPAT'
-import ReciclaveisMaceio from "./pages/RecicláveisMaceió"
-import QUALIFICACOOPAQ from "./pages/QualificaCOOPAQ"
-import GestãoeLiderança from "./pages/GestãoeLiderança"
-import CafeMulheresCampos from "./pages/CafeMulheresCampos"
-import AssembleiaGeralOrdinaria from "./pages/AssembleiaGeralOrdinaria"
-import PedalCoopaq from "./pages/PedalCoopaq"
-import QualificaJovem from "./pages/QualificaJovem"
-import CoopaqParceiraComOGov from "./pages/CoopaqParceiraComOGov"
-import EsporteEllayny from "./pages/EsporteEllayny"
-import Autoresponsabilidade from "./pages/Autoresponsabilidade"
-import MarceloBrilhante from "./pages/MarceloBrilhante"
-import QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco from "./pages/QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco"
-import Arrancada2025 from "./pages/Arrancada2025"
-import MidiaExterna from "./pages/MidiaExterna"
+import NossosProjetos from "./pages/NossosProjetos";
+import ÚltimasNotícias from "./pages/ÚltimasNotícias";
+import CampanhaAbrilVerde from "./pages/CampanhaAbrilVerde";
+import Diadecampo from "./pages/Diadecampo";
+import PedaladaVerde from "./pages/PedaladaVerde";
+import ImersãoIntercooperação from "./pages/ImersãoIntercooperação";
+import EncontroDeNegocios from "./pages/EncontroDeNegocios";
+import SIPAT from "./pages/SIPAT";
+import ReciclaveisMaceio from "./pages/RecicláveisMaceió";
+import QUALIFICACOOPAQ from "./pages/QualificaCOOPAQ";
+import GestãoeLiderança from "./pages/GestãoeLiderança";
+import CafeMulheresCampos from "./pages/CafeMulheresCampos";
+import AssembleiaGeralOrdinaria from "./pages/AssembleiaGeralOrdinaria";
+import PedalCoopaq from "./pages/PedalCoopaq";
+import QualificaJovem from "./pages/QualificaJovem";
+import CoopaqParceiraComOGov from "./pages/CoopaqParceiraComOGov";
+import EsporteEllayny from "./pages/EsporteEllayny";
+import Autoresponsabilidade from "./pages/Autoresponsabilidade";
+import MarceloBrilhante from "./pages/MarceloBrilhante";
+import QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco from "./pages/QualificaJovemVisitamFabricaDeProcessamentoDeResiduosDeCoco";
+import Arrancada2025 from "./pages/Arrancada2025";
+import MidiaExterna from "./pages/MidiaExterna";
 import Imunizacao from "./pages/Imunizacao";
 import MatrizDelas from "./pages/MatrizDelas";
+import Formacaoembioeconomia from "./pages/formacaoembioeconomia";
 
 function App() {
-
   return (
     <Router>
       <Routes>
@@ -84,9 +84,13 @@ function App() {
         <Route path="/arrancada2025" element={<Arrancada2025 />} />
         <Route path="/imunizacao" element={<Imunizacao />} />
         <Route path="/matriz-delas" element={<MatrizDelas />} />
+        <Route
+          path="/formacaoembioeconomia"
+          element={<Formacaoembioeconomia />}
+        />
       </Routes>
     </Router>
   );
 }
 
-export default App
+export default App;

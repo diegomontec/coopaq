@@ -4,7 +4,6 @@
 import "../../styles/UltimasNoticias.css";
 import CardsNoticias from "../atoms/CardsNoticias";
 import IMG_BG from "../../assets/ELEMENTOS COOPAQ/IMG_NEWS.png";
-
 import IMG_Assembleia from "../../assets/IG/assembleia geral.png";
 import IMG_Valores from "../../assets/IG/valores.png";
 import IMG_YT from "../../assets/IG/Se inscreva em nosso canal.png";
@@ -29,8 +28,17 @@ import IMG_qualificajovemvisitamfabricadeprocessamentoderesiduosdecoco from "../
 import IMG_arracada2025 from "../../assets/Arrancada2025/capaNews.jpeg";
 import IMG_imunizacao from "../../assets/Imunizacao/capa.jpg";
 import IMG_matrizdelas from "../../assets/MatrizDelas/capa.jpg";
+import IMG_formacaobioeconomia from "../../assets/FormacaoBioeconomia/IMG_formacaobioeconomia.jpeg";
 
 const news = [
+  {
+    Titulo: "Formação em Bioeconomia",
+    Noticias:
+      "🏆💪🏽 Juventude Coopaq celebra a conclusão do Curso de Formação em Bioeconomia com foco no aproveitamento das cascas de coco",
+    LeiaMais: "/formacaoembioeconomia",
+    imgSrc: IMG_formacaobioeconomia,
+    targetBlank: false,
+  },
   {
     Titulo: "Campanha de Imunização",
     Noticias:
