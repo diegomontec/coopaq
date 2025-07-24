@@ -28,6 +28,7 @@ import MidiaExterna from "./pages/MidiaExterna";
 import Imunizacao from "./pages/Imunizacao";
 import MatrizDelas from "./pages/MatrizDelas";
 import Formacaoembioeconomia from "./pages/Formacaoembioeconomia";
+import ManutencaoExpansao from "./pages/ManutencaoExpansao";
 
 function App() {
   return (
@@ -88,6 +89,7 @@ function App() {
           path="/formacaoembioeconomia"
           element={<Formacaoembioeconomia />}
         />
+        <Route path="/manutencaoexpansao" element={<ManutencaoExpansao />} />
       </Routes>
     </Router>
   );

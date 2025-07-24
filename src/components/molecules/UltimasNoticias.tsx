@@ -29,12 +29,21 @@ import IMG_arracada2025 from "../../assets/Arrancada2025/capaNews.jpeg";
 import IMG_imunizacao from "../../assets/Imunizacao/capa.jpg";
 import IMG_matrizdelas from "../../assets/MatrizDelas/capa.jpg";
 import IMG_formacaobioeconomia from "../../assets/FormacaoBioeconomia/IMG_formacaobioeconomia.jpeg";
+import IMG_manutencaoexpansao from "../../assets/ManutencaoExpansao/capa.jpeg";
 
 const news = [
   {
+    Titulo: "Agroindústria Camaragibe passa por manutenção e expansão",
+    Noticias:
+      "Intervenções estruturais visam ampliar capacidade produtiva e melhorar condições de trabalho para os colaboradores",
+    LeiaMais: "/manutencaoexpansao",
+    imgSrc: IMG_manutencaoexpansao,
+    targetBlank: false,
+  },
+  {
     Titulo: "Formação em Bioeconomia",
     Noticias:
-      "🏆💪🏽 Juventude Coopaq celebra a conclusão do Curso de Formação em Bioeconomia com foco no aproveitamento das cascas de coco",
+      "Juventude Coopaq celebra a conclusão do Curso de Formação em Bioeconomia com foco no aproveitamento das cascas de coco",
     LeiaMais: "/formacaoembioeconomia",
     imgSrc: IMG_formacaobioeconomia,
     targetBlank: false,
@@ -42,7 +51,7 @@ const news = [
   {
     Titulo: "Campanha de Imunização",
     Noticias:
-      "💫💪🏽 Coopaq e Agroindústria Camaragibe Realizam Campanha de Imunização contra Doenças Virais",
+      "Coopaq e Agroindústria Camaragibe Realizam Campanha de Imunização contra Doenças Virais",
     LeiaMais: "/imunizacao",
     imgSrc: IMG_imunizacao,
     targetBlank: false,
@@ -50,14 +59,14 @@ const news = [
   {
     Titulo: "Matriz Delas participa",
     Noticias:
-      "🚀💪🏽Matriz Delas participa de Encontro de Mulheres em Assentamentos do Litoral Norte",
+      "Matriz Delas participa de Encontro de Mulheres em Assentamentos do Litoral Norte",
     LeiaMais: "/matriz-delas",
     imgSrc: IMG_matrizdelas,
     targetBlank: false,
   },
   {
     Titulo: "Arrancada 2025",
-    Noticias: "🚀💪🏽 Uma Jornada de Autoconhecimento e Integração",
+    Noticias: "Uma Jornada de Autoconhecimento e Integração",
     LeiaMais: "/arrancada2025",
     imgSrc: IMG_arracada2025,
     targetBlank: false,
@@ -66,14 +75,14 @@ const news = [
     Titulo:
       "Qualifica Jovem visitam Fábrica de Processamento de Resíduos de Coco",
     Noticias:
-      "🌱🥥 A experiência foi fundamental para os jovens entenderem os processos do subproduto",
+      "A experiência foi fundamental para os jovens entenderem os processos do subproduto",
     LeiaMais: "/qualificajovemvisitamfabricadeprocessamentoderesiduosdecoco",
     imgSrc: IMG_qualificajovemvisitamfabricadeprocessamentoderesiduosdecoco,
     targetBlank: false,
   },
   {
     Titulo: "Coach Nacional Marcelo Brilhante",
-    Noticias: "🚀📈 Gestão Inicia Programa de Desenvolvimento de Liderança",
+    Noticias: "Gestão Inicia Programa de Desenvolvimento de Liderança",
     LeiaMais: "/marcelobrilhante",
     imgSrc: IMG_MarceloBrilhante,
     targetBlank: false,
@@ -81,7 +90,7 @@ const news = [
   {
     Titulo: "Autoresponsabilidade COOPAQ",
     Noticias:
-      "🌱🥥 Time operacional participa de treinamento sobre autorresponsabilidade.",
+      "Time operacional participa de treinamento sobre autorresponsabilidade.",
     LeiaMais: "/autoresponsabilidade",
     imgSrc: IMG_Autoresponsabilidade,
     targetBlank: false,
@@ -89,14 +98,14 @@ const news = [
   {
     Titulo: "ESPORTE",
     Noticias:
-      "🏆💪🏽 Apoiando cada vez mais o esporte, Coopaq vira patrocinadora oficial de lutadora de jiu-jítsu.",
+      "Apoiando cada vez mais o esporte, Coopaq vira patrocinadora oficial de lutadora de jiu-jítsu.",
     LeiaMais: "/esporteellayny",
     imgSrc: IMG_Esporte_Ellayny,
     targetBlank: false,
   },
   {
     Titulo: "Lançamento do Projeto QUALIFICA JOVEM",
-    Noticias: "🦾💎 Capacitando Jovens para um Futuro Sustentável",
+    Noticias: "Capacitando Jovens para um Futuro Sustentável",
     LeiaMais: "/qualificajovem",
     imgSrc: IMG_QualificaJovem,
     targetBlank: false,
@@ -105,7 +114,7 @@ const news = [
     Titulo:
       "Coopaq em parceria com o Governo do Estado Distribui sementes para cooperados",
     Noticias:
-      "🌱👨🏽‍🌾 Parceria visa fortalecer a agricultura local e impulsionar a economia",
+      "Parceria visa fortalecer a agricultura local e impulsionar a economia",
     LeiaMais: "/coopaqemparceriacomogov",
     imgSrc: IMG_SemetesParaCooperados,
     targetBlank: false,
@@ -113,7 +122,7 @@ const news = [
   {
     Titulo: "Coopaq participa da 15ª Etapa do Circuito Unidos pela Bike",
     Noticias:
-      "🚴🦾 Coopaq participa da 15ª Etapa do Circuito Unidos pela Bike, em Catende/PE.",
+      "Coopaq participa da 15ª Etapa do Circuito Unidos pela Bike, em Catende/PE.",
     LeiaMais: "/pedalcoopaq",
     imgSrc: IMG_PedalCoopaq,
     targetBlank: false,
@@ -121,7 +130,7 @@ const news = [
   {
     Titulo: "Assembleia Geral Ordinária",
     Noticias:
-      "📋🌐 Cooperados se reúnem para discutir crescimento e eleger nova diretoria",
+      "Cooperados se reúnem para discutir crescimento e eleger nova diretoria",
     LeiaMais: "/assembleiageralordinaria",
     imgSrc: IMG_AssembleiaGeralOrdinaria,
     targetBlank: false,
@@ -129,7 +138,7 @@ const news = [
   {
     Titulo: "Café com Mulheres do Campo",
     Noticias:
-      "💫💎 Café com Mulheres do Campo é sucesso e marca início dos trabalhos do Matriz Delas, em 2025.",
+      "Café com Mulheres do Campo é sucesso e marca início dos trabalhos do Matriz Delas, em 2025.",
     LeiaMais: "/cafecommulheresdocampo",
     imgSrc: IMG_CafeMulheresCampo,
     targetBlank: false,
@@ -137,7 +146,7 @@ const news = [
   {
     Titulo: "Gestão e Liderança",
     Noticias:
-      "📋🌐 9 colaboradores dos setores administrativos foram capacitados pela mentora Técia Moura.",
+      "9 colaboradores dos setores administrativos foram capacitados pela mentora Técia Moura.",
     LeiaMais: "/gestãoeliderança",
     imgSrc: IMG_GestãoeLiderança,
     targetBlank: false,
@@ -145,7 +154,7 @@ const news = [
   {
     Titulo: "Qualifica COOPAQ",
     Noticias:
-      "📋🌐 Coopaq lança mais novo projeto social para seus agricultores cooperados.",
+      "Coopaq lança mais novo projeto social para seus agricultores cooperados.",
     LeiaMais: "/qualificacoopaq",
     imgSrc: IMG_CapaQualificaCOOPAQ,
     targetBlank: false,
@@ -153,7 +162,7 @@ const news = [
   {
     Titulo: "Doação de Materiais",
     Noticias:
-      "📋🌐 Coopaq doa materiais recicláveis para cooperativa, em Maceió.",
+      "Coopaq doa materiais recicláveis para cooperativa, em Maceió.",
     LeiaMais: "/doacaodemateriaisreciclaveisparacooperativademaceio",
     imgSrc: IMG_CapaDoação,
     targetBlank: false,
@@ -161,7 +170,7 @@ const news = [
   {
     Titulo: "COOPAQ reúne colaboradores para a SIPAT",
     Noticias:
-      "🌱🥥 Evento contou com diversos profissionais técnicos que destacaram a importância de um ambiente de trabalho seguro e saudável.",
+      "Evento contou com diversos profissionais técnicos que destacaram a importância de um ambiente de trabalho seguro e saudável.",
     LeiaMais: "/SIPAT",
     imgSrc: IMG_SIPAT,
     targetBlank: false,
@@ -169,7 +178,7 @@ const news = [
   {
     Titulo: "Encontro de Negócios",
     Noticias:
-      "💫💎 Coopaq participa de Encontro de Negócios e apresenta nossos produtos.",
+      "Coopaq participa de Encontro de Negócios e apresenta nossos produtos.",
     LeiaMais: "/encontrodenegocios",
     imgSrc: IMG_EncontroDeNegocios,
     targetBlank: false,
@@ -177,7 +186,7 @@ const news = [
   {
     Titulo: "Imersão de Intercooperação",
     Noticias:
-      "📋🌐 Colaboradores da Coopaq fazem imersão de intercooperação, na região Norte do Brasil.",
+      "Colaboradores da Coopaq fazem imersão de intercooperação, na região Norte do Brasil.",
     LeiaMais: "/imersaointercooperacao",
     imgSrc: IMG_CapaImersão,
     targetBlank: false,
@@ -185,7 +194,7 @@ const news = [
   {
     Titulo: "Pedalada Verde",
     Noticias:
-      "🚴🌴 Coopaq reúne mais de mil ciclistas na 2ª edição da Pedalada Verde.",
+      "Coopaq reúne mais de mil ciclistas na 2ª edição da Pedalada Verde.",
     LeiaMais: "/pedaladaverde",
     imgSrc: IMG_Capa03,
     targetBlank: false,
@@ -193,7 +202,7 @@ const news = [
   {
     Titulo: "“Dia de Campo” no Assentamento Boa União ",
     Noticias:
-      "🌱🥥 O evento que tem objetivo de fomentar a capacitação do produtor rural (...)",
+      "O evento que tem objetivo de fomentar a capacitação do produtor rural (...)",
     LeiaMais: "/diadecampo",
     imgSrc: IMG_Capa02,
     targetBlank: false,
@@ -201,21 +210,21 @@ const news = [
   {
     Titulo: "Decom, COOPAQ",
     Noticias:
-      "😁 Coopaq e Camaragibe fazem Blit's dos EPI's, em alusão à Campanha Abril Verde",
+      "Coopaq e Camaragibe fazem Blit's dos EPI's, em alusão à Campanha Abril Verde",
     LeiaMais: "/campanhaabrilverde",
     imgSrc: IMG_Capa01,
     targetBlank: false,
   },
   {
     Titulo: "📋 Ei, anota aí!",
-    Noticias: `😁 Dia 24 de março, nossa Assembleia Geral Ordinária. Contamos com sua presença!`,
+    Noticias: `Dia 24 de março, nossa Assembleia Geral Ordinária. Contamos com sua presença!`,
     LeiaMais: "https://www.instagram.com/p/C4aoFq-uTJj/",
     imgSrc: IMG_Assembleia,
   },
   {
     Titulo: "COOPAQAL",
     Noticias:
-      "🌐💫 Descubra nossa missão, visão e valores, fundamentos que moldam cada passo em direção ao nosso propósito.",
+      "Descubra nossa missão, visão e valores, fundamentos que moldam cada passo em direção ao nosso propósito.",
     LeiaMais: "https://www.instagram.com/p/C0O4cCSr5o7/?img_index=1",
     imgSrc: IMG_Valores,
     targetBlank: true,
@@ -223,7 +232,7 @@ const news = [
   {
     Titulo: "Dá um Google 👉🏾COOPAQAL",
     Noticias:
-      "👨🏽‍🌾🌱 Vem conhecer um pouco mais da gente, por meio do nosso conteúdo no Youtube",
+      "Vem conhecer um pouco mais da gente, por meio do nosso conteúdo no Youtube",
     LeiaMais: "https://www.instagram.com/p/C0CprWyrEuR/",
     imgSrc: IMG_YT,
     targetBlank: true,
