@@ -29,6 +29,7 @@ import Imunizacao from "./pages/Imunizacao";
 import MatrizDelas from "./pages/MatrizDelas";
 import Formacaoembioeconomia from "./pages/Formacaoembioeconomia";
 import ManutencaoExpansao from "./pages/ManutencaoExpansao";
+import LiderancasRurais from "./pages/LiderancasRurais";
 
 function App() {
   return (
@@ -90,6 +91,7 @@ function App() {
           element={<Formacaoembioeconomia />}
         />
         <Route path="/manutencaoexpansao" element={<ManutencaoExpansao />} />
+        <Route path="/liderancasrurais" element={<LiderancasRurais />} />
       </Routes>
     </Router>
   );

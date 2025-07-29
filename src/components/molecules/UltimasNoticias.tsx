@@ -1,6 +1,3 @@
-// import { Carousel } from 'react-bootstrap';
-// import { useMemo } from 'react';
-
 import "../../styles/UltimasNoticias.css";
 import CardsNoticias from "../atoms/CardsNoticias";
 import IMG_BG from "../../assets/ELEMENTOS COOPAQ/IMG_NEWS.png";
@@ -30,8 +27,18 @@ import IMG_imunizacao from "../../assets/Imunizacao/capa.jpg";
 import IMG_matrizdelas from "../../assets/MatrizDelas/capa.jpg";
 import IMG_formacaobioeconomia from "../../assets/FormacaoBioeconomia/IMG_formacaobioeconomia.jpeg";
 import IMG_manutencaoexpansao from "../../assets/ManutencaoExpansao/capa.jpeg";
+import IMG_liderancasrurais from "../../assets/LiderancasRurais/capa.jpeg";
 
 const news = [
+  {
+    Titulo:
+      "Coopaq recebe lideranças rurais",
+    Noticias:
+      "Encontro reuniu representantes de assentamentos e acampamentos da zona rural do Litoral Norte, com presença do deputado Alfredo Gaspar de Mendonça",
+    LeiaMais: "/liderancasrurais",
+    imgSrc: IMG_liderancasrurais,
+    targetBlank: false,
+  },
   {
     Titulo: "Agroindústria Camaragibe passa por manutenção e expansão",
     Noticias:
@@ -161,8 +168,7 @@ const news = [
   },
   {
     Titulo: "Doação de Materiais",
-    Noticias:
-      "Coopaq doa materiais recicláveis para cooperativa, em Maceió.",
+    Noticias: "Coopaq doa materiais recicláveis para cooperativa, em Maceió.",
     LeiaMais: "/doacaodemateriaisreciclaveisparacooperativademaceio",
     imgSrc: IMG_CapaDoação,
     targetBlank: false,
