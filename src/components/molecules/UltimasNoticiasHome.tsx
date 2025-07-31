@@ -35,7 +35,7 @@ import IMG_imunizacao from "../../assets/Imunizacao/capa.jpg";
 import IMG_matrizdelas from "../../assets/MatrizDelas/capa.jpg";
 import IMG_formacaobioeconomia from "../../assets/FormacaoBioeconomia/IMG_formacaobioeconomia.jpeg";
 import IMG_manutencaoexpansao from "../../assets/ManutencaoExpansao/capa.jpeg";
-import IMG_liderancasrurais from "../../assets/LiderancasRurais/capa.jpeg";
+import IMG_liderancasrurais from "../../assets/LiderancasRurais/capaHome.jpg";
 
 const news = [
   {
